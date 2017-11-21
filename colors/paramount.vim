@@ -167,7 +167,7 @@ call s:h("DiffText",      {"fg": s:dark_blue})
 call s:h("SignColumn",    {"fg": s:light_green})
 
 
-if has("gui_running")
+if has("gui_running") || has("gui_vimr")
   call s:h("SpellBad",    {"gui": "undercurl", "sp": s:red})
   call s:h("SpellCap",    {"gui": "undercurl", "sp": s:light_green})
   call s:h("SpellRare",   {"gui": "undercurl", "sp": s:pink})
