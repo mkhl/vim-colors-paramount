@@ -168,10 +168,10 @@ call s:h("SignColumn",    {"fg": s:light_green})
 
 
 if has("gui_running")
-  call s:h("SpellBad",    {"gui": "underline", "sp": s:red})
-  call s:h("SpellCap",    {"gui": "underline", "sp": s:light_green})
-  call s:h("SpellRare",   {"gui": "underline", "sp": s:pink})
-  call s:h("SpellLocal",  {"gui": "underline", "sp": s:dark_green})
+  call s:h("SpellBad",    {"gui": "undercurl", "sp": s:red})
+  call s:h("SpellCap",    {"gui": "undercurl", "sp": s:light_green})
+  call s:h("SpellRare",   {"gui": "undercurl", "sp": s:pink})
+  call s:h("SpellLocal",  {"gui": "undercurl", "sp": s:dark_green})
 else
   call s:h("SpellBad",    {"cterm": "underline", "fg": s:red})
   call s:h("SpellCap",    {"cterm": "underline", "fg": s:light_green})
